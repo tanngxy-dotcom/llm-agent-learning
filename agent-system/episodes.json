@@ -1,0 +1,6902 @@
+[
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.829621896518395
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.829621896518395,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7296824591165632
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7296824591165632,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.4916920475953147
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4916920475953147,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.643509207276715
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.643509207276715,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6316772651005094
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6316772651005094,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8735432437901746
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8735432437901746,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7786935867799647
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7786935867799647,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.42066352484260106
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.42066352484260106,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.7832980795287311
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7832980795287311,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8165643251932997
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8165643251932997,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8199055345820869
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8199055345820869,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8608731577840486
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8608731577840486,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7285227198494523
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7285227198494523,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.41328737512872804
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.41328737512872804,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.4006252293377168
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4006252293377168,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8532533630204029
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8532533630204029,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.7003065894432325
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7003065894432325,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4664512641720488
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4664512641720488,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.48904008071450344
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.48904008071450344,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7916744392045252
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7916744392045252,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8524824307932235
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8524824307932235,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.47440366555111163
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.47440366555111163,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.49813369450379064
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.49813369450379064,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.5647280922391109
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5647280922391109,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.6962047167575414
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6962047167575414,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.4569821070962111
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4569821070962111,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8475680654785127
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8475680654785127,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.4427373105383371
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4427373105383371,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.5472192435851013
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5472192435851013,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8651534529467908
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8651534529467908,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.41128535816910294
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.41128535816910294,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.40777442279995985
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.40777442279995985,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.9484753983011914
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.9484753983011914,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8190255081976925
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8190255081976925,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7557930998960251
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7557930998960251,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.43906469470410125
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.43906469470410125,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.5148968636140904
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5148968636140904,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.5088443088652926
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5088443088652926,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7923494536605513
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7923494536605513,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7068322716828186
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7068322716828186,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8379610273348725
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8379610273348725,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7895244646379692
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7895244646379692,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6690351428922401
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6690351428922401,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.5763971531836181
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5763971531836181,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8421668956408902
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8421668956408902,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.4800471304185202
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4800471304185202,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7535878176805231
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7535878176805231,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8264516113083058
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8264516113083058,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.42814341768938746
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.42814341768938746,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4910223149896381
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4910223149896381,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.5570105914349509
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5570105914349509,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.40573891092460124
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.40573891092460124,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.4548946752980886
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4548946752980886,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7767088245355076
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7767088245355076,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6147142526385142
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6147142526385142,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4874475061332442
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4874475061332442,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8414599647841321
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8414599647841321,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4321564771643371
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4321564771643371,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.5092462323485769
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5092462323485769,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.41468771622473505
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.41468771622473505,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4043463648994113
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4043463648994113,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8397844720059069
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8397844720059069,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4315579230968703
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4315579230968703,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4643911588553819
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4643911588553819,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.45329074814999326
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.45329074814999326,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8430333874446765
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8430333874446765,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.5679570426623111
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5679570426623111,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.6299205460584607
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6299205460584607,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6812348044180502
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6812348044180502,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.4717290544298765
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4717290544298765,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.943369028815613
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.943369028815613,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.9124126127740707
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.9124126127740707,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8135736240343872
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8135736240343872,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8168244200801452
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8168244200801452,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.460041233272593
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.460041233272593,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6902699825687135
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6902699825687135,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.7861315732336015
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7861315732336015,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.5931633925386681
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5931633925386681,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.7021629197573538
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7021629197573538,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.45489911453695253
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.45489911453695253,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7403106534695514
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7403106534695514,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8638750379007756
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8638750379007756,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.5961459304717714
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5961459304717714,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.8536826144396399
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8536826144396399,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.866794603457492
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.866794603457492,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.7197550985123445
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7197550985123445,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.9072363953062574
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.9072363953062574,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.4036454446040999
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.4036454446040999,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6778509063129234
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6778509063129234,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.5015766696641577
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5015766696641577,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6141910370926023
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6141910370926023,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.8861388523174397
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.8861388523174397,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7503192163704985
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7503192163704985,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6605015516086222
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6605015516086222,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.9022806398210298
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.9022806398210298,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.729038830263621
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.729038830263621,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "SendRescheduleEmail",
+            "args": {
+              "message": "LLM suggests SendRescheduleEmail"
+            },
+            "confidence": 0.6902368226236495
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.6902368226236495,
+            "intent_valid": true,
+            "constraint_violation": 1,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7145107627531726
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7145107627531726,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.5133789730410092
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.5133789730410092,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "state_snapshot": {
+          "status": "awaiting_user_confirmation",
+          "user_intent": "reschedule_meeting",
+          "meeting_time": "2026-01-06 10:00"
+        },
+        "decision_input": {
+          "observable_state": {
+            "status": "awaiting_user_confirmation",
+            "meeting_time": "2026-01-06 10:00"
+          },
+          "allowed_intents": [
+            "AskForConfirmation",
+            "SendRescheduleEmail",
+            "Abort"
+          ],
+          "constraints": [
+            "Do not send email without confirmation"
+          ]
+        },
+        "proposals": {
+          "llm": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "LLM suggests AskForConfirmation"
+            },
+            "confidence": 0.7256256697135337
+          },
+          "rule": {
+            "intent": "AskForConfirmation",
+            "args": {
+              "message": "Rule: please confirm first"
+            },
+            "confidence": 0.7
+          },
+          "abort": {
+            "intent": "Abort",
+            "args": {
+              "reason": "User intent unclear"
+            },
+            "confidence": 0.6
+          }
+        },
+        "scores": {
+          "llm": {
+            "confidence": 0.7256256697135337,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 1
+          },
+          "rule": {
+            "confidence": 0.7,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 3
+          },
+          "abort": {
+            "confidence": 0.6,
+            "intent_valid": true,
+            "constraint_violation": 0,
+            "provider_priority": 2
+          }
+        },
+        "chosen_intent": "AskForConfirmation"
+      }
+    ]
+  }
+]

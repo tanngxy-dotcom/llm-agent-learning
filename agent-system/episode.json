@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "2026-01-07T19:46:03.769829",
+    "state": {
+      "status": "awaiting_user_confirmation",
+      "user_intent": "reschedule_meeting",
+      "meeting": {
+        "id": "m_123",
+        "time": "2026-01-06 10:00"
+      }
+    },
+    "decision_input": {
+      "task": "Handle user request",
+      "observable_state_snapshot": {
+        "status": "awaiting_user_confirmation",
+        "meeting_time": "2026-01-06 10:00"
+      },
+      "allowed_intents": [
+        "AskForConfirmation",
+        "SendRescheduleEmail",
+        "Abort"
+      ],
+      "constraints": [
+        "Do not send email without confirmation"
+      ]
+    },
+    "proposals": {
+      "llm": {
+        "intent": "AskForConfirmation",
+        "args": {
+          "message": "Do you want me to reschedule the meeting?"
+        },
+        "confidence": 0.65
+      },
+      "rule": {
+        "intent": "AskForConfirmation",
+        "args": {
+          "message": "Please confirm if you want to reschedule the meeting."
+        },
+        "confidence": 0.95
+      }
+    },
+    "scores": {
+      "llm": {
+        "confidence": 0.65,
+        "intent_valid": true,
+        "constraint_violation": 0,
+        "provider_priority": 1
+      },
+      "rule": {
+        "confidence": 0.95,
+        "intent_valid": true,
+        "constraint_violation": 0,
+        "provider_priority": 2
+      }
+    },
+    "chosen_provider": "rule",
+    "decision": {
+      "type": "AskForConfirmation",
+      "payload": {
+        "message": "Please confirm if you want to reschedule the meeting."
+      }
+    }
+  }
+]
